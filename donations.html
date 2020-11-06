@@ -1,0 +1,1815 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.bloemburg.co.za/',
+        AccountUUID: '6850ac2082cd460ea9f85369fb846cf9',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'e6117e80',
+        SiteId: '1753525',
+        SiteType: atob('RFVEQU9ORQ=='),
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'donations',
+        InitialEncodedPageAlias: 'ZG9uYXRpb25z',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: true,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '1555',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID : null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        LayoutParams : {
+            _navigationAnimationStyle: 'slide',
+            _manifestId : 10600,
+            _device : 'desktop'
+        },
+        StorePageAlias: 'null',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'bloemburg',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJUVUlTIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJOVVVTIiwiYWxpYXMiOiJvdXItbmV3cyIsInBhdGgiOiIvb3VyLW5ld3MiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJQUkVLRSIsImFsaWFzIjoiREVBRF9MSU5LX2x3cU4iLCJwYXRoIjoiIyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbeyJ0aXRsZSI6IlBSRUtFIiwiYWxpYXMiOiJkb25hdGlvbnMiLCJwYXRoIjoiL2RvbmF0aW9ucyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6Ik9PUkRFTktJTkdTIiwiYWxpYXMiOiJvb3JkZW5raW5ncyIsInBhdGgiOiIvb29yZGVua2luZ3MiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XX0seyJ0aXRsZSI6IktPTlRBSyBPTlMiLCJhbGlhcyI6ImNvbnRhY3QiLCJwYXRoIjoiL2NvbnRhY3QiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XQ==',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.bloemburg.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: 7,
+        disableTracking: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="donations.html">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>PREKE
+</title>
+
+<!--Add favorites icons-->
+
+<link rel="icon" type="image/x-icon" href="https://static-cdn.multiscreensite.com/runtime/favicon_d1_res.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://lirp-cdn.multiscreensite.com/" crossorigin />
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CRoboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CPoppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMontserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CABeeZee:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7COld+Standard+TT:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CSource+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1466/_dm/s/rt/dist/css/css-font-package-v2.min.css" />
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1466/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/WIDGET_CSS/production_1466/b7335f05cb21992245d201920748f56d.css" id="widgetCSS" />
+    
+
+
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/e6117e80/files/e6117e80_1.min.css?v=24" id="siteGlobalCss" />
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody *.u_1118969534:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,0,0) !important;
+}
+*#dm *.dmBody *.u_1118969534.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,0,0) !important;
+}
+*#dm *.dmBody div.u_1118969534:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.3 !important;
+}
+*#dm *.dmBody div.u_1118969534.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.3 !important;
+}
+*#dm *.dmBody div.u_Donate
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1118969534
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1497621122273-f5cfb6065c56.jpg) !important;
+}
+*#dm *.dmBody div.u_Volunteering
+{
+	background-color:rgba(226,216,200,1) !important;
+}
+*#dm *.dmBody div.u_1917565884
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1912469259
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1370653498
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1834990980
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1778356542
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1728796426
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1146935555
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1417428413
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1726536356
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1009342019
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1898027258
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1810066368
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1481724341 .listImage
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	border-radius:100px !important;
+	-moz-border-radius:100px !important;
+	-webkit-border-radius:100px !important;
+}
+*#dm *.dmBody div.u_1130083386
+{
+	background-color:rgba(201,185,156,1) !important;
+}
+*#dm *.dmBody div.u_1251630648
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1180156569
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1156208101
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1398908811
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1135258574
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1626342997
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1756757480
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1313196269
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1043787021
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1610023079
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1962354592
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1350211680
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1178112487
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+*#dm *.dmBody div.u_1137043943
+{
+	background-image:url(https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/phonograph-record-player-music-vintage.jpg) !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1118969534
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1497621122273-f5cfb6065c56-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1917565884
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1912469259
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1370653498
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1834990980
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1778356542
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1728796426
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1146935555
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1417428413
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1726536356
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1009342019
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1898027258
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1810066368
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1251630648
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1180156569
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1156208101
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1398908811
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1135258574
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1626342997
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1756757480
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1313196269
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1043787021
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1610023079
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1962354592
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1350211680
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1178112487
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}
+*#dm *.dmBody div.u_1137043943
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-1920w.jpg) !important;
+}@media all and (min-width:1920px), all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+
+*#dm *.dmBody div.u_1118969534
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1497621122273-f5cfb6065c56-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1917565884
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1912469259
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1370653498
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1834990980
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1778356542
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1728796426
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1146935555
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1417428413
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1726536356
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1009342019
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1898027258
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1810066368
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1251630648
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1180156569
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1156208101
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1398908811
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1135258574
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1626342997
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1756757480
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1313196269
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1043787021
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1610023079
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1962354592
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1350211680
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1178112487
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1137043943
+{
+	background-image:url(https://lirp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/opt/phonograph-record-player-music-vintage-2880w.jpg) !important;
+}
+}
+*#dm *.dmBody div.u_1118969534
+{
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+	background-attachment:initial !important;
+	background-size:cover !important;
+	background-position:0 50% !important;
+}
+*#dm *.dmBody div.u_Volunteering
+{
+	padding-top:70px !important;
+	padding-bottom:30px !important;
+}
+*#dm *.dmBody div.u_Donate
+{
+	padding-top:30px !important;
+	padding-bottom:90px !important;
+}
+*#dm *.dmBody div.u_1481724341
+{
+	padding-top:0 !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 90px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:999px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	min-width:25px !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1481724341 li.listItem .link.dmWidget
+{
+	width:167px !important;
+}
+
+</style>
+
+
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-48, .size-48, .size-48 > font { font-size: 48px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+<!-- Flex Sections CSS -->
+
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    
+    window.collections = {};
+    </script>
+<script>
+                window.collections = JSON.parse(decodeURIComponent(escape(atob("e30="))));
+</script>
+
+
+
+<script type="text/javascript">
+
+    var version = "5.8.6";
+    var build = "2020-10-22T06_55_38";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2020-10-22T06_55_38";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.multiscreensite.com/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages =  false;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            if(event.target && event.target.tagName === 'IMG' && event.target.src && event.target.src.includes && event.target.src.includes('multiscreensite.com')) {
+                if (!window.fetch){
+                    return;
+                }
+                try {
+                    return fetch('/_dm/s/rt/actions/log/WARN', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                type: 'image failed to load',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/1466';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.multiscreensite.com';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.multiscreensite.com/mnlt/production/1466';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.animations.allowInMobile"]=false;
+    rtCommonProps["feature.flag.videoRefresh.refactor"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.mark.anchors']= true;
+    rtCommonProps['feature.flag.runtime.miniheader.chromefix'] = false;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"]=160;
+    rtCommonProps["images.sizes.mobile"]=640;
+    rtCommonProps["images.sizes.tablet"]=1280;
+    rtCommonProps["images.sizes.desktop"]=1920;
+    rtCommonProps["modules.resources.cdn"]=true;
+    rtCommonProps["import.images.storage.imageCDN"]='https://lirp-cdn.multiscreensite.com/';
+    rtCommonProps["facebook.api.version"]='7.0';
+    rtCommonProps["custom.widget.new.runtime.enabled"]=true;
+
+</script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1466/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1466/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js" ></script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1466/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="feed/rss2.rss"/>
+  <link type="application/atom+xml" rel="alternate" href="feed/atom"/>
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite dmLargeBody " style="padding:0;margin:0;"
+            >
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">#imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1460842227"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody d-page-1763854611 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1763854611" data-buttonstyle="ROUND_SIDES" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="100%" has-shadow="true" layout="29bf4fa55d88450885fbcefc03615aa2===header" mini-header-show-only-navigation-row="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1952275889 dmRespRow" style="text-align: center;" id="1952275889"> <div class="dmRespColsWrapper" id="1528994751"> <div class="u_1346038303 dmRespCol small-12 medium-12 large-12" id="1346038303"> <nav class="u_1372948940 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1372948940" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/e6117e80/dms3rep/multi/Embleem_van_die_Gereformeerde_Kerke_in_Suid-Afrika-removebg-preview.png" data-nav-structure="SPLIT" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" data-divider="PIPE" is-build-your-own="false"> <ul class="unifiednav__container left_nav " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         TUIS
+        
+                " data-auto&#x3d;page-text-style="">TUIS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="our-news.html" class="unifiednav__item  dmUDNavigationItem_010101528098  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         NUUS
+        
+                " data-auto&#x3d;page-text-style="">NUUS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+ <a class="middleLogoLink" href="index.html"><img class="navLogo" id="navLogo" src="https://lirp-cdn.multiscreensite.com/e6117e80/dms3rep/multi/opt/Embleem_van_die_Gereformeerde_Kerke_in_Suid-Afrika-removebg-preview-1920w.png" alt="" onerror="handleImageLoadError(this)"/></a> 
+ <ul class="unifiednav__container right_nav "> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101562395  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         PREKE
+        
+                " data-auto&#x3d;page-text-style="">PREKE<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto&#x3d;sub-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="donations.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101357537  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                      
+           PREKE
+          
+                    " data-auto&#x3d;page-text-style="">PREKE<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="oordenkings.html" class="unifiednav__item  dmUDNavigationItem_010101858601  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                      
+           OORDENKINGS
+          
+                    " data-auto&#x3d;page-text-style="">OORDENKINGS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="contact.html" class="unifiednav__item  dmUDNavigationItem_010101943230  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         KONTAK ONS
+        
+                " data-auto&#x3d;page-text-style="">KONTAK ONS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">PREKE</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1460842227" class="dmBody u_dmStyle_template_donations"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1763854611"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1260607478"> <div class="dmRespRow dmDefaultListContentRow u_1118969534 hasBackgroundOverlay dmSectionNoParallax" style="text-align:center" id="1118969534" data-gallery-bg="eyJzbGlkZXMiOltdfQ=="> <div class="dmRespColsWrapper" id="1650924786"> <div class="large-12 medium-12 small-12 dmRespCol" id="1378155974"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1771865488" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"> <div style="text-align: center;"><b><font style="color: rgb(255, 255, 255);" class="m-font-size-36 lh-1 font-size-48"><span style="font-family: 'Bad Script';">PREKE</span></font></b><br/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1947221590"> <div class="dmRespColsWrapper" id="1727479242"> <div class="dmRespCol large-12 medium-12 small-12 u_1130083386" id="1130083386"> <div class="u_1481724341 dmPrettyList ed-version" data-element-type="dListId" layout="layoutA" data-dmtmpl="true" id="1481724341" link-element="button" image-element="image" saved-layout="layoutA" data-hover-effect-parent="zoomout"> <h3 class="dmwidget-title" hide="false" id="1037560780">Eredienste 2020</h3> 
+ <ul class="listWidgetContainer" id="1599850090"> <li class="listItem" dont_set_id="true" id="1993189288"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1B8Bu6PxNGIzVqlT3hmuKiag44SOWUnay/view?usp=sharing" id="1259848919" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1962354592" dont_set_id="true" id="1962354592"></div> 
+ <div class="listText" dont_set_id="true" id="1900351763"> <span class="itemName" id="1080042437">12 Julie Oggend</span> 
+ <div class="itemText" id="1179053593"><p class="rteBlock">Christus regeer sy kerk deur dienende voorgangers.</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1421680970"> <span class="buttonText text" id="1573714611">Luister nou</span> 
+ <span class="itemName" id="1581156182"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1003428233"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1C-EsNgoeYGgjjI8wCb-6ygE0qPd8E6f0/view?usp=sharing" id="1817978327" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1350211680" dont_set_id="true" id="1350211680"></div> 
+ <div class="listText" dont_set_id="true" id="1304739370"> <span class="itemName" id="1732276173">12 Julie Aand</span> 
+ <div class="itemText" id="1386176966"><p class="rteBlock">&quot;Sy eniggebore seun, ons Here&quot;</p><br/><br/><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1823754649"> <span class="buttonText text" id="1709311294">Luister nou</span> 
+ <span class="itemName" id="1103249732"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1198544829"> <a class="biglink clearfix" href="" id="1091475760" target="_blank"> <div class="listImage u_1178112487" dont_set_id="true" id="1178112487"></div> 
+ <div class="listText" dont_set_id="true" id="1255734231"> <span class="itemName" id="1952821909">5 Julie Oggend</span> 
+ <div class="itemText" id="1226327315"><p class="rteBlock">Christus stuur sy diensknegte terwille van sy kerk.</p><br/><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1759673106"> <span class="buttonText text" id="1999387400">Luister nou</span> 
+ <span class="itemName" id="1202799179"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1019836120"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1Jh-uHvOLlhPhP8l9wMU8A1wckLPxeJMx/view?usp=sharing" id="1379518166" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1137043943" dont_set_id="true" id="1137043943"></div> 
+ <div class="listText" dont_set_id="true" id="1251937550"> <span class="itemName" id="1512962175">5 Julie Aand</span> 
+ <div class="itemText" id="1113839299"><p class="rteBlock">Die Christen se drievoudige amp in Christus</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1477325272"> <span class="buttonText text" id="1036979802">Luister nou</span> 
+ <span class="itemName" id="1258067714"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1903373010"> <a class="biglink clearfix" href="" id="1601693378" target="_blank"> <div class="listImage u_1156208101" dont_set_id="true" id="1156208101"></div> 
+ <div class="listText" dont_set_id="true" id="1966436842"> <span class="itemName" id="1099175291">28 Junie Oggend</span> 
+ <div class="itemText" id="1343154534"><p class="rteBlock">Die Here gee sin tot 'n sinnelose w&ecirc;reld.</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1655861198"> <span class="buttonText text" id="1653943514">Luister nou</span> 
+ <span class="itemName" id="1503772775"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1817765300"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1C7dcCbMdFZA4lL4OZ2HDxv6WqaypXwgO/view?usp=sharing" id="1752825137" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1398908811" dont_set_id="true" id="1398908811"></div> 
+ <div class="listText" dont_set_id="true" id="1889248548"> <span class="itemName" id="1109371485">28 Junie Aand</span> 
+ <div class="itemText" id="1319668325"><p class="rteBlock">Christus: Ons gesalfde prieser, koning en profeet</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1341806773"> <span class="buttonText text" id="1875898732">Luister nou</span> 
+ <span class="itemName" id="1229975438"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1960986097"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1s5q2S21h2l5EFo8XxLTHGDJMWm7elfgG/view?usp=sharing" id="1067508888" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1135258574" dont_set_id="true" id="1135258574"></div> 
+ <div class="listText" dont_set_id="true" id="1803881678"> <span class="itemName" id="1041098353">21 Junie Oggend</span> 
+ <div class="itemText" id="1993091225"><p class="rteBlock">Wat moet die kerk glo en doen as enige onheil ons tref</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1550118029"> <span class="buttonText text" id="1970986351">Luister nou</span> 
+ <span class="itemName" id="1704403417"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1190920826"> <a class="biglink clearfix" href="https://drive.google.com/file/d/14x84lJW9eJm93xSWJxCtbuKsixFc33JE/view?usp=sharing" id="1134549077" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1626342997" dont_set_id="true" id="1626342997"></div> 
+ <div class="listText" dont_set_id="true" id="1166576307"> <span class="itemName" id="1906376523">21 Junie Aand</span> 
+ <div class="itemText" id="1715680377"><p class="rteBlock">Godsvertroue in 'n wereld vol nood</p><br/><br/><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1583858227"> <span class="buttonText text" id="1797985733">Luister nou</span> 
+ <span class="itemName" id="1415455582"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1769770320"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1shVWwAv4c86CXEvH24vsANuuVABtaVTS/view?usp=sharing" id="1099576679" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1756757480" dont_set_id="true" id="1756757480"></div> 
+ <div class="listText" dont_set_id="true" id="1113798893"> <span class="itemName" id="1165138862">14 Junie Oggend</span> 
+ <div class="itemText" id="1127354505"><p class="rteBlock">Die gesag van Christus</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1201232889"> <span class="buttonText text" id="1311291572">Luister nou</span> 
+ <span class="itemName" id="1939879225"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1840723187"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1SsYJ6x9xKnwzEu1LZCj5_W57dEom9v1s/view?usp=sharing" id="1567172602" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1313196269" dont_set_id="true" id="1313196269"></div> 
+ <div class="listText" dont_set_id="true" id="1009301831"> <span class="itemName" id="1733441988">14 Junie Aand</span> 
+ <div class="itemText" id="1703369165"><p class="rteBlock">Jesus: Ons enigste verlosser en saligmaker</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1987018753"> <span class="buttonText text" id="1300736899">Luister nou</span> 
+ <span class="itemName" id="1624227975"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1538836350"> <a class="biglink clearfix" href="" id="1596399839" target="_blank"> <div class="listImage u_1043787021" dont_set_id="true" id="1043787021"></div> 
+ <div class="listText" dont_set_id="true" id="1476954213"> <span class="itemName" id="1947250732">7 Junie Oggend</span> 
+ <div class="itemText" id="1827208284"><p class="rteBlock">Die goeie en lieflike geur van Godgegewe eensgesindheid</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1656866955"> <span class="buttonText text" id="1814469673">Luister nou</span> 
+ <span class="itemName" id="1661621966"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1677387348"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1YMEFo3WFS15n6FHHf73kB0GqQknymuGU/view?usp=sharing" id="1530025621" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1610023079" dont_set_id="true" id="1610023079"></div> 
+ <div class="listText" dont_set_id="true" id="1217950621"> <span class="itemName" id="1130597404">7 Junie Aand</span> 
+ <div class="itemText" id="1141597045"><p class="rteBlock">Se&euml;n die Here wat Sy volk in Christus se&euml;n!</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1506919088"> <span class="buttonText text" id="1466531000">Luister nou</span> 
+ <span class="itemName" id="1757485147"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1425132505"> <a class="biglink clearfix" href="https://drive.google.com/open?id=1a2NnfgQCU6o9b5aUZjncLnd0aJXvR2qM" id="1425734919" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1251630648" dont_set_id="true" id="1251630648"></div> 
+ <div class="listText" dont_set_id="true" id="1782641049"> <span class="itemName" id="1539358903">31 Mei Oggend</span> 
+ <div class="itemText" id="1021086711"><p class="rteBlock">Esra 9:1-10:5</p><p class="rteBlock">Die Here lei sy volk tot verootmoediging en gebed</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1001169247"> <span class="buttonText text" id="1563443510">Luister nou</span> 
+ <span class="itemName" id="1467524846"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1731508935"> <a class="biglink clearfix" href="https://drive.google.com/open?id=1FwXnuo-kjaxTxCUIKobTwTFDq9-uvgRM" id="1136968375" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1180156569" dont_set_id="true" id="1180156569"></div> 
+ <div class="listText" dont_set_id="true" id="1268504953"> <span class="itemName" id="1962869287">31 Mei Aand</span> 
+ <div class="itemText" id="1284719568"><p class="rteBlock">Romeine 8:18-39 ;HK Sondag 10</p><p class="rteBlock">Ons Vader laat alles ten goede meewerk vir sy kinders.</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1258156225"> <span class="buttonText text" id="1846199823">Luister nou</span> 
+ <span class="itemName" id="1151546045"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" id="1220833078"> <a class="biglink clearfix" href="" id="1169000653" target="_blank"> <div class="listImage u_1917565884" id="1917565884" style=""></div> 
+ <div class="listText" id="1247150212"> <span class="itemName" id="1061750585" style="">10 Mei 2020 Oggend</span> 
+ <div class="itemText" id="1951624166"><p class="rteBlock">Psalm 122:1-9</p><p class="rteBlock">Vreugde en vrede in die kerk van Christus</p><br/></div> 
+</div> 
+ <span class="link dmWidget" id="1247946596"> <span class="buttonText text" id="1912252460">Luister nou</span> 
+ <span class="itemName" id="1871764249">List Item  1</span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" id="1733237751"> <a class="biglink clearfix" href="" id="1666099701" target="_blank"> <div class="listImage u_1912469259" id="1912469259" style=""></div> 
+ <div class="listText" id="1606054055"> <span class="itemName" id="1470200252" style="">10 Mei 2020 Aand</span> 
+ <div class="itemText" id="1692070913"><p class="rteBlock">Heb 10:32-11:7 ;HK Sondag 7</p><p class="rteBlock">Die ware geloof waarmee ons in Christus ingeplan word</p></div> 
+</div> 
+ <span class="link dmWidget" id="1932600085"> <span class="buttonText text" id="1192645480">Luister nou</span> 
+ <span class="itemName" id="1784682633">List Item  2</span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" id="1966781770"> <a class="biglink clearfix" href="" id="1167538257" target="_blank"> <div class="listImage u_1370653498" id="1370653498" style=""></div> 
+ <div class="listText" id="1709378690"> <span class="itemName" id="1105255192" style="">3 Mei 2020 Oggend</span> 
+ <div class="itemText" id="1163023139"><p class="rteBlock">2Kor 4:16-5:10</p><p class="rteBlock">Die gelowige se moed in Jesus Christus</p><br/></div> 
+</div> 
+ <span class="link dmWidget" id="1243081831"> <span class="buttonText text" id="1115590586">Luister nou</span> 
+ <span class="itemName" id="1919345769">List Item  3</span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" id="1772150901"> <a class="biglink clearfix" href="" id="1983191822" target="_blank"> <div class="listImage u_1834990980" id="1834990980" style=""></div> 
+ <div class="listText" id="1382057934"> <span class="itemName" id="1626591807" style="">3 Mei 2020 Aand</span> 
+ <div class="itemText" id="1138451091"><p class="rteBlock">Lukas 24:13-35 ; HK Sondag 6,v/a 19</p><p class="rteBlock">Die openbaring van ons Middelaar</p><br/></div> 
+</div> 
+ <span class="link dmWidget" id="1673151904"> <span class="buttonText text" id="1350597229">Luister nou</span> 
+ <span class="itemName" id="1761970490">List Item  4</span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1242029423"> <a class="biglink clearfix" href="" id="1534739463" target="_blank"> <div class="listImage u_1778356542" dont_set_id="true" id="1778356542" style=""></div> 
+ <div class="listText" dont_set_id="true" id="1828180173"> <span class="itemName" id="1600386773">26 April 2020 Oggend</span> 
+ <div class="itemText" id="1047086905"><p class="rteBlock">Kol 1:15-20; Op 3:14-22</p><p class="rteBlock">Aan Laodicea: Jy is nie koud of warm nie, maar lou</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1099879242"> <span class="buttonText text" id="1173883234">Luister nou</span> 
+ <span class="itemName" id="1560557509"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1546592978"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1Wqoa3atPnhjHQe7NxoJfApiuQga4j6OP/view?usp=sharing" id="1356930092" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1146935555" dont_set_id="true" id="1146935555"></div> 
+ <div class="listText" dont_set_id="true" id="1378807653"> <span class="itemName" id="1217387440">26 April 2020 Aand</span> 
+ <div class="itemText" id="1692214929"><p class="rteBlock">Heb 2:5-18; HK Sondag 6</p><p class="rteBlock">Ons middelaar: Jesus Christus</p><br/></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1363310557"> <span class="buttonText text" id="1014586414">Luister nou</span> 
+ <span class="itemName" id="1170162468"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1369948186"> <a class="biglink clearfix" href="" id="1800595786" target="_blank"> <div class="listImage u_1728796426" dont_set_id="true" id="1728796426"></div> 
+ <div class="listText" dont_set_id="true" id="1632509817"> <span class="itemName" id="1032186943">19 April 2020 Oggend</span> 
+ <div class="itemText" id="1766940791"><p class="rteBlock">&nbsp;Openbaring 3:7-13</p><p class="rteBlock">Aan Filadelfia: DIe geopende deur van God se koningkryk.</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1222907926"> <span class="buttonText text" id="1806662034">Luister nou</span> 
+ <span class="itemName" id="1805868787"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1452029864"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1pVcjysJKbI9yXpW9BKDxnzyCQzq1dTcV/view?usp=sharing" id="1661178399" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1417428413" dont_set_id="true" id="1417428413"></div> 
+ <div class="listText" dont_set_id="true" id="1195939205"> <span class="itemName" id="1259477041">19 April 2020 Aand</span> 
+ <div class="itemText" id="1971460109"><p class="rteBlock">Psalm 49; HK Sondag 5</p><p class="rteBlock">God eis dat die prys van ons sonde betaal word.</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1088028528"> <span class="buttonText text" id="1449871523">Luister nou</span> 
+ <span class="itemName" id="1615968561"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1300088881"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1bx8d5NrbiNlZW-xa2nITAtcgBwp0QCLJ/view?usp=sharing" id="1775859498" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1726536356" dont_set_id="true" id="1726536356"></div> 
+ <div class="listText" dont_set_id="true" id="1162452404"> <span class="itemName" id="1814353118">12 April 2020 Oggend</span> 
+ <div class="itemText" id="1773444558"><p class="rteBlock">Lukas 25:1-12</p><p class="rteBlock">Die opstanding van ons Here Jesus Christusservice that you offer.</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1571848791"> <span class="buttonText text" id="1715671122">Luister nou</span> 
+ <span class="itemName" id="1569334103"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1997125660"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1vg8qhE_nS40QI3XcHnRWeNKt7nWeAZky/view?usp=sharing" id="1315975714" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1009342019" dont_set_id="true" id="1009342019"></div> 
+ <div class="listText" dont_set_id="true" id="1119993517"> <span class="itemName" id="1187533519">12 April 2020 Aand</span> 
+ <div class="itemText" id="1522550583"><p class="rteBlock">Romeine 1; Sondag 4</p><p class="rteBlock">Ons troos in God se regverdige oordeel</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1643280427"> <span class="buttonText text" id="1451872753">Luister nou</span> 
+ <span class="itemName" id="1848397327"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1189090995"> <a class="biglink clearfix" href="https://drive.google.com/file/d/17vwCmTZtZkqhkmpv4TRaawB3dRvAgF-E/view?usp=sharing" id="1659113451" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1898027258" dont_set_id="true" id="1898027258"></div> 
+ <div class="listText" dont_set_id="true" id="1157120159"> <span class="itemName" id="1928768874">5 April 2020 Oggend</span> 
+ <div class="itemText" id="1468991998"><p class="rteBlock">&nbsp;2 Kronieke 20:6-12</p><p class="rteBlock">Die gelowige se gebed te midde van nood</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1664490605"> <span class="buttonText text" id="1563051336">Luister nou</span> 
+ <span class="itemName" id="1363025665"></span> 
+</span> 
+</a> 
+</li> 
+ <li class="listItem" dont_set_id="true" id="1500468425"> <a class="biglink clearfix" href="https://drive.google.com/file/d/1mucSWDwNqgFp07PhGf-MIY22ZuWhpY5r/view?usp=sharing" id="1078886660" target="_blank" dm_dont_rewrite_url="false" file="false"> <div class="listImage u_1810066368" dont_set_id="true" id="1810066368"></div> 
+ <div class="listText" dont_set_id="true" id="1397206832"> <span class="itemName" id="1393826322">5 April 2020 Aand</span> 
+ <div class="itemText" id="1878370524"><p class="rteBlock">Johannes 3; HK Sondag 3b</p><p class="rteBlock">Die wonder van wedergeboorte</p></div> 
+</div> 
+ <span class="link dmWidget" dont_set_id="true" id="1965367959"> <span class="buttonText text" id="1297210069">Luister nou</span> 
+ <span class="itemName" id="1439922529"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1967123523 dmRespRow" style="text-align: center;" id="1967123523"> <div class="dmRespColsWrapper" id="1346778055"> <div class="u_1074290344 dmRespCol small-12 large-4 medium-4" id="1074290344"> <h4 class="u_1511122316 dmNewParagraph" data-element-type="paragraph" id="1511122316" data-uialign="center" style="transition: opacity 1s ease-in-out;">Skakels</h4> <nav class="u_1828229419 unifiednav_vertical effect-none main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1828229419" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/6588cd5d1cdc479882fbdf7994221ef0/dms3rep/multi/desktop/logo-02.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         TUIS
+        
+                " data-auto&#x3d;page-text-style="">TUIS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="our-news.html" class="unifiednav__item  dmUDNavigationItem_010101528098  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         NUUS
+        
+                " data-auto&#x3d;page-text-style="">NUUS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101562395  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         PREKE
+        
+                " data-auto&#x3d;page-text-style="">PREKE<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto&#x3d;sub-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="donations.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101357537  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                      
+           PREKE
+          
+                    " data-auto&#x3d;page-text-style="">PREKE<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="oordenkings.html" class="unifiednav__item  dmUDNavigationItem_010101858601  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                      
+           OORDENKINGS
+          
+                    " data-auto&#x3d;page-text-style="">OORDENKINGS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="contact.html" class="unifiednav__item  dmUDNavigationItem_010101943230  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         KONTAK ONS
+        
+                " data-auto&#x3d;page-text-style="">KONTAK ONS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+ <div class="u_1077594467 graphicWidget hide-for-small" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1077594467"> <a href="https://www.youtube.com/channel/UC7GyaEgYfhJm_LsuaLnV63Q" id="1431873722" class="" target="_blank" dm_dont_rewrite_url="false" file="false"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1536 1792" id="1646580952" class="svg u_1646580952" data-icon-name="fa-youtube"> <path fill="inherit" d="M971 1244v211q0 67-39 67-23 0-45-22v-301q22-22 45-22 39 0 39 67zM1309 1245v46h-90v-46q0-68 45-68t45 68zM343 1027h107v-94h-312v94h105v569h100v-569zM631 1596h89v-494h-89v378q-30 42-57 42-18 0-21-21-1-3-1-35v-364h-89v391q0 49 8 73 12 37 58 37 48 0 102-61v54zM1060 1448v-197q0-73-9-99-17-56-71-56-50 0-93 54v-217h-89v663h89v-48q45 55 93 55 54 0 71-55 9-27 9-100zM1398 1438v-13h-91q0 51-2 61-7 36-40 36-46 0-46-69v-87h179v-103q0-79-27-116-39-51-106-51-68 0-107 51-28 37-28 116v173q0 79 29 116 39 51 108 51 72 0 108-53 18-27 21-54 2-9 2-58zM790 525v-210q0-69-43-69t-43 69v210q0 70 43 70t43-70zM1509 1276q0 234-26 350-14 59-58 99t-102 46q-184 21-555 21t-555-21q-58-6-102.5-46t-57.5-99q-26-112-26-350 0-234 26-350 14-59 58-99t103-47q183-20 554-20t555 20q58 7 102.5 47t57.5 99q26 112 26 350zM511 0h102l-121 399v271h-100v-271q-14-74-61-212-37-103-65-187h106l71 263zM881 333v175q0 81-28 118-37 51-106 51-67 0-105-51-28-38-28-118v-175q0-80 28-117 38-51 105-51 69 0 106 51 28 37 28 117zM1216 171v499h-91v-55q-53 62-103 62-46 0-59-37-8-24-8-75v-394h91v367q0 33 1 35 3 22 21 22 27 0 57-43v-381h91z"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1406229327 dmRespCol small-12 large-4 medium-4 content-removed" id="1406229327"> <div class="dmNewParagraph u_1737040801" data-dmtmpl="true" data-element-type="paragraph" id="1737040801" style="transition: opacity 1s ease-in-out 0s;" data-uialign="right"><b><font class="font-size-18 lh-1"><span style="font-family: 'Old Standard TT';">Kontak ons</span></font></b><br/>  <ul class="innerList defaultList"><li>&nbsp;Ds.Dirk Meijer</li><li>Sel: 084 488 5032</li><li>Epos: <a href="mailto:dirkmeijer2@bloemburg.co.za" runtime_url="mailto:dirkmeijer2@bloemburg.co.za"><font style="color: rgb(13, 56, 226);">dirkmeijer2@bloemburg.co.za</font></a></li></ul> 
+ <br/></div> 
+ <div class="u_1571086065 align-center text-align-center hide-for-small dmSocialHub" id="1571086065" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/gkbloemburg/?ref=aymt_homepage_panel&amp;eid=ARC68krLbVocVh6JKr7VAvGKARTafYKmu0XTrhgcs4NEoQk_g3vc6WN-iDqrdOnpsvFDdykFkn2HCqU6" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12 content-removed" id="1384708170"></div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  <script type="text/javascript" id="d_track_ga">
+
+  _dm_gaq.siteAlias = 'e6117e80';
+  _dm_gaq.systemAggregatedGaqID = 'UA-7265702-9';
+  _dm_gaq.externalGaqID = '';
+  
+  _gaq.push(['_gat._forceSSL']);
+  
+  _gaq.push (['_gat._anonymizeIp']);
+  
+
+  if(_dm_gaq.systemAggregatedGaqID && (_dm_gaq.systemAggregatedGaqID != _dm_gaq.systemGaqID)){
+     // track aggregated account
+    _gaq.push(['b._setAccount', _dm_gaq.systemAggregatedGaqID]);
+    _gaq.push(['b._setAllowLinker', true]);
+    _gaq.push(['b._setVar', _dm_gaq.siteAlias]);
+    _gaq.push(['b._setCustomVar', 1, 'product', 'DM_DIRECT',  2 ]);
+    _gaq.push(['b._setCustomVar', 2, 'plan', 'BUSINESS_PLUS',  2 ]);
+    _gaq.push(['b._setCustomVar', 3, 'dfooter', 'false',  2 ]);
+    _gaq.push(['b._setCustomVar', 4, 'sitetype', '1',  2 ]);
+    _gaq.push(['b._setCustomVar', 5, 'pwaEnabled', 'true',  2 ]);
+
+      _gaq.push(['b._trackPageview' ]);
+    pushInsiteImpressions('b._trackEvent');
+   }
+
+   if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+     _gaq.push(['c._setAccount', _dm_gaq.externalGaqID]);
+     _gaq.push(['c._setVar', _dm_gaq.siteAlias]);
+     _gaq.push(['c._setDomainName', 'bloemburg.co.za']);
+     _gaq.push(['c._setAllowLinker', true]);
+     _gaq.push(['c._trackPageview' ]);
+
+     pushInsiteImpressions('c._trackEvent');
+   }
+
+   function pushInsiteImpressions(category) {
+   	$.each(_dm_insite, function(idx, rule) {
+   		_gaq.push([ category, 'insite_impression' , _dm_gaq.siteAlias, rule.ruleType + '__' + rule.ruleId, ]);
+   	});
+   }
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+  
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'e6117e80'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: e6117e80 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+        ;
+    });
+</script>
+<script>
+    dmAPI.loadScript(window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js', function () {
+        dmAPI.runOnReady('lozadInit', function () {
+            window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                img.addEventListener('load', function (event) {
+                    var img = event.target;
+                    img.style.filter = 'blur(0)';
+                    setTimeout(function () {
+                        $(img).closest('.imageWidget').addClass('lazyLoaded');
+                    }, 250)
+                });
+            });
+            lozad('.lazy', {
+                threshold: 0.1,
+                loaded: function (element) {
+                    if (element.getAttribute('data-background-image')) {
+                        element.style.setProperty(
+                            'background-image',
+                            "url('" + element.getAttribute('data-background-image') + "')",
+                            "important"
+                        );
+                    }
+                }
+            }).observe();
+        });
+    });
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+            <!--  Site Wide Html Markup -->
+</body>
+</html>
